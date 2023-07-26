@@ -194,10 +194,10 @@ a:hover {
   overflow: hidden;
   box-shadow: 0 19px 38px var(--shadow1), 0 15px 12px var(--shadow2);
 }
-
+ 
 .card .wrapper:hover .data {
   transform: translateY(0);
-}
+} 
 
 .card .data {
   position: absolute;
@@ -209,12 +209,13 @@ a:hover {
 
 @media (min-width: 60rem) {
   .card .data {
-    height: 76%;
+    height: 80%;
   }
 }
 
 .card .data .content {
   padding: 1em;
+  padding-top: 0.5em;
   position: relative;
   z-index: 1;
 }
@@ -372,8 +373,10 @@ ul {
   padding-inline-start: 0px;
 }
 
+/* Github icon */
 .social-icon svg {
-  margin-top: 78px;
+  margin-top: 140px;
+  /* margin-top: -52px; */
 }
 
 .menu-content {
@@ -444,7 +447,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 0rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
@@ -456,7 +459,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 0rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
@@ -468,7 +471,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 0rem;
     font-size: 2rem;
   }
 }
@@ -478,7 +481,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 0rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
@@ -490,7 +493,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 0rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
