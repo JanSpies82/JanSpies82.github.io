@@ -196,7 +196,7 @@ a:hover {
 }
  
 .card .wrapper:hover .data {
-  transform: translateY(0);
+  transform: translateY(-10px);
 } 
 
 .card .data {
@@ -252,14 +252,14 @@ a:hover {
 
 @media (min-width: 554px) {
   .card .title {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 }
 
 @media (min-width: 60rem) {
   .card .title {
     padding-bottom: 4rem;
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 }
 
@@ -361,6 +361,7 @@ input[type="text"] {
   background-color: rgba(0, 0, 0, 0.55);
   transform: translateY(calc(60px + 4em));
   padding: 5px;
+  top:35%;
 }
 
 .skill-card .title a {
@@ -375,8 +376,9 @@ ul {
 
 /* Github icon */
 .social-icon svg {
-  margin-top: 140px;
+  /* margin-top: 140px; */
   /* margin-top: -52px; */
+  float: right;
 }
 
 .menu-content {
