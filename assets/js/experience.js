@@ -5,6 +5,13 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Associate Software Engineer",
+    cardImage: "assets/images/experience-page/eu-labs.png",
+    place: "Epi-Use Labs",
+    time: "(Jan - Present, 2024)",
+    desp: "<li>Currently working full time on site as a software engineer as part of the Epi-Use Labs Graduate Program</li> <li>Currently working on SAP products</li>",
+  },
+  {
     title: "Software developer intern",
     cardImage: "assets/images/experience-page/momentum.png",
     place: "Momentum Investments",
